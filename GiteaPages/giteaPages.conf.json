@@ -1,0 +1,6 @@
+﻿{
+  "root": "",
+  "defaults": [ "index.html", "index.htm" ],
+  "notFound": "ErrorPages/404.html",
+  "scripts": []
+}

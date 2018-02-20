@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiteaPages", "GiteaPages\GiteaPages.csproj", "{63DBA3C6-1892-4028-B774-71160389E93B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiteaPages.Models", "GiteaPages.Models\GiteaPages.Models.csproj", "{0A9A0888-AAE8-4083-B9D9-225C262142BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiteaPages.Models.Lite", "GiteaPages.Models.Lite\GiteaPages.Models.Lite.csproj", "{986FC3B4-D8B1-412A-9B82-7B8D9569798A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{63DBA3C6-1892-4028-B774-71160389E93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63DBA3C6-1892-4028-B774-71160389E93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63DBA3C6-1892-4028-B774-71160389E93B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9A0888-AAE8-4083-B9D9-225C262142BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9A0888-AAE8-4083-B9D9-225C262142BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9A0888-AAE8-4083-B9D9-225C262142BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9A0888-AAE8-4083-B9D9-225C262142BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986FC3B4-D8B1-412A-9B82-7B8D9569798A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986FC3B4-D8B1-412A-9B82-7B8D9569798A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986FC3B4-D8B1-412A-9B82-7B8D9569798A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986FC3B4-D8B1-412A-9B82-7B8D9569798A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

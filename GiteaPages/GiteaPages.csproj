@@ -5,15 +5,37 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="ErrorPages\" />
     <Folder Include="wwwroot\" />
+    <Folder Remove="Files\" />
+    <Content Remove="Files\**\*" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="EzKit.AspNetCore" Version="1.0.3" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.7.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GiteaPages.Models.Lite\GiteaPages.Models.Lite.csproj" />
+    <ProjectReference Include="..\GiteaPages.Models\GiteaPages.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="giteaPages.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ErrorPages\404.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
